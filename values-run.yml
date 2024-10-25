@@ -1,0 +1,18 @@
+full_ignitions_file:
+ class: File
+ location: ./data/yosemite_sample_ignitions.csv
+rx_burn_units_file:
+ class: File
+ location: ./data/rx_burn.tar.gz
+intensity_file:
+ class: File
+ location: ./data/intensity.tar.gz
+toa_file:
+ class: File
+ location: ./data/toa.tar.gz
+ms_buildings_tiles_file:
+ class: File
+ location: ./data/MS_bldgs_all_tiles.json
+critical_habitats_polygon_file:
+ class: File
+ location: ./data/critical_habitat_polygons.tar.gz
